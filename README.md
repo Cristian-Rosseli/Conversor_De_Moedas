@@ -46,3 +46,11 @@ _____________________________________________________________________
 <h1 width="20%" align="center"> 
     :construction:  Projeto em construção  :construction:
 </h1>
+
+
+
+# Autores
+
+<img src="https://github.com/Cristian-Rosseli/conversor_de_moedas/assets/135030186/9f6e9aaa-fda9-4f91-a7dd-9038f618d155" alt="Sua Foto" width="12%" "/>
+
+_____________________________________________________________________
