@@ -38,9 +38,9 @@ public class Menu {
                       PYG ->  Paraguayan Guaraní
                       THB ->  Thai Baht
                       UYU ->  Uruguayan Peso
-                 *Além destas opções, alguns outros códigos
-                    são suportados pela nossa aplicação!
-                            Teste à vontade!
+                   Além destas opções, alguns outros códigos
+                     são suportados pela nossa aplicação!
+                             Teste à vontade!
                       """;
             System.out.println(mensagem);
 
