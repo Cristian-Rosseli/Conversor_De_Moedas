@@ -5,8 +5,11 @@ import com.google.gson.JsonSyntaxException;
 import model.DadosMoedas;
 import service.ConsumoAPi;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Menu {
@@ -22,8 +25,7 @@ public class Menu {
         while (continuar) {
 
             var mensagem = """
-                    Escolha A moeda para conversão:
-                                 
+                ** Escolha a moeda para conversão**           
                     Código: | País de Orígem:
                       USD ->  United States Dollar
                       BRL ->  Real Brasileiro
@@ -38,9 +40,10 @@ public class Menu {
                       PYG ->  Paraguayan Guaraní
                       THB ->  Thai Baht
                       UYU ->  Uruguayan Peso
-                   Além destas opções, alguns outros códigos
-                     são suportados pela nossa aplicação!
-                             Teste à vontade!
+                 ____________________________________________     
+                   Além destas opções, existem outros códigos
+                   de 3 dígitos suportados, teste à vontade!
+                  __________________________________________          
                       """;
             System.out.println(mensagem);
 
@@ -51,10 +54,11 @@ public class Menu {
             var moedaParaConversao = scan.nextLine().toUpperCase();
 
             var inputAmostra = """
-                        Conversão:
-                 * Partindo para conversão*
-                       -> %s x %s <-
-          ___________________________________________
+          __________________________________________             
+         *              Conversão:                   *
+         *        * Partindo para conversão*         *
+         *              * %s => %s *                 *  
+         * __________________________________________*
                     """.formatted(moedaASerConvertida, moedaParaConversao);
             System.out.println(inputAmostra);
 
@@ -120,6 +124,8 @@ public class Menu {
 
 
                 System.out.println(valorASerConvertido + " " + base_Url + " é igual a " + valorDeConversao + " " + body_Url);
+
+
             } catch (JsonSyntaxException e) {
                 System.out.println("Erro ao desserializar: " + e.getMessage());
             } catch (Exception e) {
