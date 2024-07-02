@@ -31,6 +31,16 @@ public class Menu {
                       EGP ->  Libra egípcia
                       JPY ->  Iene japonês
                       RUB ->  Russian Ruble
+                      AUD ->  Australian Dollar	
+                      ARS ->  Argentine Peso
+                      CLP ->  Chilean Peso	
+                      IDR ->  Indonesian Rupiah
+                      PYG ->  Paraguayan Guaraní
+                      THB ->  Thai Baht
+                      UYU ->  Uruguayan Peso
+                 *Além destas opções, alguns outros códigos
+                    são suportados pela nossa aplicação!
+                            Teste à vontade!
                       """;
             System.out.println(mensagem);
 
@@ -42,8 +52,9 @@ public class Menu {
 
             var inputAmostra = """
                         Conversão:
-            * Partindo para conversão: %s -> %s *
-          _____________________________________________
+                 * Partindo para conversão*
+                       -> %s x %s <-
+          ___________________________________________
                     """.formatted(moedaASerConvertida, moedaParaConversao);
             System.out.println(inputAmostra);
 
@@ -56,6 +67,13 @@ public class Menu {
                 case "EGP":
                 case "JPY":
                 case "RUB":
+                case "AUD":
+                case "ARS":
+                case "CLP":
+                case "IDR":
+                case "PYG":
+                case "THB":
+                case "UYU":
                     base_Url = moedaASerConvertida;
                     break;
 
@@ -70,6 +88,13 @@ public class Menu {
                 case "EGP":
                 case "JPY":
                 case "RUB":
+                case "AUD":
+                case "ARS":
+                case "CLP":
+                case "IDR":
+                case "PYG":
+                case "THB":
+                case "UYU":
                     body_Url = moedaParaConversao;
                     break;
 
