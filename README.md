@@ -2,7 +2,7 @@
 
 ![GitHub Release Date badge](https://img.shields.io/github/release-date/SubtitleEdit/SubtitleEdit) <img width="18%" loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
-<p> Este aplicativo Java oferece uma interface de menu para conversão de moedas. Os usuários podem converter entre seis moedas: USD, BRL, EUR, EGP, JPY e RUB. O aplicativo utiliza o serviço ConsumoAPi para buscar as taxas de câmbio mais recentes da API ExchangeRate e analisa a resposta JSON usando a biblioteca Gson.
+<p> Este aplicativo Java oferece uma interface de menu para conversão de moedas. Os usuários podem converter entre seis moedas: USD, BRL, EUR, EGP, JPY e RUB, AUD, ARS, CLP, IDR, PYG,THB, UYU e outras mais. O aplicativo utiliza o serviço ConsumoAPi para buscar as taxas de câmbio mais recentes da API ExchangeRate e analisa a resposta JSON usando a biblioteca Gson.
 
 
 Funcionalidades:
