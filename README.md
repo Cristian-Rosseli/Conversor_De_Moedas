@@ -1,6 +1,6 @@
 ![Imagem referênciando o conversosr de moedas!](https://github.com/Cristian-Rosseli/conversor_de_moedas/assets/135030186/833481a9-0a05-4ddf-bc4d-dd3f311f942a)
 
-![GitHub Release Date badge](https://img.shields.io/github/release-date/SubtitleEdit/SubtitleEdit) <img width="20%" loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+![GitHub Release Date badge](https://img.shields.io/github/release-date/SubtitleEdit/SubtitleEdit) <img width="18%" loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 
 <p> Este aplicativo Java oferece uma interface de menu para conversão de moedas. Os usuários podem converter entre seis moedas: USD, BRL, EUR, EGP, JPY e RUB. O aplicativo utiliza o serviço ConsumoAPi para buscar as taxas de câmbio mais recentes da API ExchangeRate e analisa a resposta JSON usando a biblioteca Gson.
 
@@ -50,7 +50,7 @@ _____________________________________________________________________
 
 
 # Autores
+<img src="https://github.com/Cristian-Rosseli/conversor_de_moedas/assets/135030186/7d727b38-6382-4c25-8026-6573d6ef88ee" alt="Desenvolvedor da aplicação, Cristian Rosseli" width="8%" length="6%" >
 
-<img src="https://github.com/Cristian-Rosseli/conversor_de_moedas/assets/135030186/9f6e9aaa-fda9-4f91-a7dd-9038f618d155" alt="Sua Foto" width="12%" "/>
 
 _____________________________________________________________________
