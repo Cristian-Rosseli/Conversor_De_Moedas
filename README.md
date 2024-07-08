@@ -43,9 +43,6 @@ Técnicas e tecnologias utilizadas:
 
 ✔️ GitHub
 _____________________________________________________________________
-<h1 width="20%" align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h1>
 
 
 
